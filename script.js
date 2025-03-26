@@ -100,7 +100,6 @@ const watchDatabase = {
         "Lucien Piccard (modern versions)", "Ingersoll (entry level)", "Condor", "Welder", "Jubileum",
         "Momentum (entry-level models)", "Cogito", "Duxot", "Maserati watches", "Jazzmaster (entry-level)"// Add low-value brands here...
     ],
-
 mixedValue: {
         Bulova: {
             highValueModels: ["Precisionist", "Marine Star", "Accutron"],
