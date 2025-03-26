@@ -218,3 +218,7 @@ function searchWatch() {
     resultsDiv.innerHTML = message;
     resultsDiv.classList.remove("hidden");
 }
+
+    resultsDiv.innerHTML = message;
+    resultsDiv.classList.remove("hidden");
+}
