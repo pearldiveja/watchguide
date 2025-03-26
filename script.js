@@ -1,4 +1,3 @@
-/ Function to show specific step
 function showStep(stepId) {
     // Hide all steps
     document.querySelectorAll('.step').forEach(step => {
@@ -8,10 +7,13 @@ function showStep(stepId) {
     // Show the selected step
     document.getElementById(stepId).classList.remove('hidden');
 }
+
 // List of watch brands categorized by value
 const watchDatabase = {
     highValue: [
         "Rolex", "Patek Philippe", "Audemars Piguet", "Cartier", "Omega",
+        "Vacheron Constantin", "Jaeger-LeCoultre", "IWC Schaffhausen",
+        "Panerai", "Tudor", "Breitling", "Grand Seiko", "TAG Heuer",
         // Add more high-value brands here...
     ],
     lowValue: [
@@ -66,6 +68,7 @@ const watchDatabase = {
         }
     }
 };
+
 // Function to normalize input (handles typos and partial matches)
 function normalizeInput(input) {
     return input.trim().toLowerCase();
@@ -139,9 +142,6 @@ function searchWatch() {
         }
     }
 
-    resultsDiv.innerHTML = message;
-    resultsDiv.classList.remove("hidden");
-}
     resultsDiv.innerHTML = message;
     resultsDiv.classList.remove("hidden");
 }
