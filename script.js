@@ -221,4 +221,13 @@ function searchWatch() {
 
     resultsDiv.innerHTML = message;
     resultsDiv.classList.remove("hidden");
+}function showStep(stepId) {
+    // Hide all steps
+    document.querySelectorAll('.step').forEach(step => {
+        step.classList.add('hidden');
+    });
+
+    // Show the selected step
+    document.getElementById(stepId).classList.remove('hidden');
 }
+
