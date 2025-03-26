@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Value Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="title">WATCH VALUE GUIDE</h1>
+    
+    <div id="main-menu" class="step">
+        <h2>Select an Option:</h2>
+        <button class="option" onclick="showStep('watch-tutorial')">How to Identify Valuable Watches</button>
+        <button class="option" onclick="showStep('watch-search')">Search a Watch</button>
+    </div>
+
+    <!-- Watch Tutorial Section -->
+    <div id="watch-tutorial" class="step hidden">
+        <h2>How to Identify Valuable Watches</h2>
+        <p>Look for these key indicators of valuable watches:</p>
+        <ul>
+            <li><strong>Brand:</strong> Luxury brands like Rolex, Patek Philippe, Audemars Piguet retain high value.</li>
+            <li><strong>Condition:</strong> Watches in excellent physical and functional condition are worth more.</li>
+            <li><strong>Rarity:</strong> Limited edition or discontinued models tend to have higher values.</li>
+            <li><strong>Original Packaging:</strong> Presence of original box and paperwork increases value.</li>
+            <li><strong>Market Trends:</strong> Check current demand for specific models.</li>
+        </ul>
+        <button class="back-button" onclick="showStep('main-menu')">Back to Main Menu</button>
+    </div>
+
+    <!-- Watch Search Section -->
+    <div id="watch-search" class="step hidden">
+        <h2>Search Watch Value</h2>
+        <p>Enter watch details to determine if it should be set aside or not:</p>
+
+        <div class="search-form">
+            <label for="brand-name">Brand Name:</label>
+            <input type="text" id="brand-name" placeholder="e.g., Rolex">
+
+            <button class="search-button" onclick="searchWatch()">Search Watch</button>
+        </div>
+
+        <!-- Results displayed here -->
+        <div id="search-results" class="search-results hidden"></div>
+
+        <button class="back-button" onclick="showStep('main-menu')">Back to Main Menu</button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
