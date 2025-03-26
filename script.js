@@ -113,15 +113,10 @@ function searchWatch() {
     }
 
     const resultsDiv = document.getElementById("search-results");
-    
     let message;
 
-    // Check if the brand is in highValue, lowValue, or mixedValue categories
-    if (watchDatabase.highValue.includes(brandName)) {
-        message = `<p><strong>${brandName}</strong> is a high-value brand! Set this watch aside for further research or listing.</p>`;
-    } else if (watchDatabase.lowValue.includes(brandName)) {
-        message = `<p><strong>${brandName}</strong> is a low-value brand and may not be worth setting aside.</p>`;
-    } else if (watchDatabase.mixedValue[brandName]) {
+    // Check if the brand is in mixedValue first
+    if (watchDatabase.mixedValue[brandName]) {
         const brandInfo = watchDatabase.mixedValue[brandName];
         message = `
             <p><strong>${brandName}</strong> has both high-value and low-value models.</p>
@@ -129,8 +124,17 @@ function searchWatch() {
             <p><strong>High-Value Models:</strong> ${brandInfo.highValueModels.join(", ")}</p>
             <p><strong>Low-Value Models:</strong> ${brandInfo.lowValueModels.join(", ")}</p>
         `;
-    } else {
-        // If no exact match is found, suggest close matches
+    } 
+    // Then check if the brand is in highValue
+    else if (watchDatabase.highValue.includes(brandName)) {
+        message = `<p><strong>${brandName}</strong> is a high-value brand! Set this watch aside for further research or listing.</p>`;
+    } 
+    // Finally, check if the brand is in lowValue
+    else if (watchDatabase.lowValue.includes(brandName)) {
+        message = `<p><strong>${brandName}</strong> is a low-value brand and may not be worth setting aside.</p>`;
+    } 
+    // If no match is found, suggest close matches
+    else {
         const closeMatches = findCloseMatches(brandName);
 
         if (closeMatches.length > 0) {
