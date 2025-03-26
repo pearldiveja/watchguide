@@ -16,7 +16,27 @@ const watchDatabase = {
         "Glycine Watches (e.g., Airman series)", 
         "Ming Watches (modern boutique brand)", 
         "Baltic Watches (vintage-inspired designs)", 
-        // Add more brands as needed...
+        "Blancpain", "Baume & Mercier", 
+        "Ulysse Nardin", "Corum", 
+        "Eterna", "Arnold & Son", 
+        "Ball Watches", "Girard-Perregaux",
+        "Glashütte Original",
+        "Vulcain (e.g., Cricket models)",
+        "Doxa (e.g., Sub models)",
+        "Certina (higher-end models)",
+        "Favre-Leuba",
+        "Montblanc (e.g., Timewalker series)",
+        "Frederique Constant (higher-end models)",
+        "Seagull 1963 (collectible Chinese chronographs)",
+        "Atlantic Worldmaster (vintage models)",
+        "Alpina Startimer Pilot watches",
+        "Victorinox Swiss Army watches (specific mechanical models)",
+        "Stowa Flieger watches",
+        "Anonimo watches",
+        "MeisterSinger single-hand watches",
+        "Junghans Max Bill watches",
+        "Marathon watches (military-grade tool watches)",
+        "Laco Pilot watches"
     ],
     lowValue: [
         // Add low-value brands here...
