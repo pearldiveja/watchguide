@@ -1,3 +1,4 @@
+/ Function to show specific step
 function showStep(stepId) {
     // Hide all steps
     document.querySelectorAll('.step').forEach(step => {
@@ -221,6 +222,9 @@ function searchWatch() {
         }
     }
 
+    resultsDiv.innerHTML = message;
+    resultsDiv.classList.remove("hidden");
+}
     resultsDiv.innerHTML = message;
     resultsDiv.classList.remove("hidden");
 }
