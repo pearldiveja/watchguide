@@ -99,8 +99,7 @@ const watchDatabase = {
         "Cherokee watches", "Krug Baumen", "Slazenger watches", "Duck and Cover watches", "Toy Watch",
         "Lucien Piccard (modern versions)", "Ingersoll (entry level)", "Condor", "Welder", "Jubileum",
         "Momentum (entry-level models)", "Cogito", "Duxot", "Maserati watches", "Jazzmaster (entry-level)"// Add low-value brands here...
-    ]
-};
+    ],
 
 mixedValue: {
         Bulova: {
