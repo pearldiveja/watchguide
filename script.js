@@ -189,6 +189,7 @@ function searchWatch() {
     
     let message;
 
+    // Check if the brand is in highValue, lowValue, or mixedValue categories
     if (watchDatabase.highValue.includes(brandName)) {
         message = `<p><strong>${brandName}</strong> is a high-value brand! Set this watch aside for further research or listing.</p>`;
     } else if (watchDatabase.lowValue.includes(brandName)) {
@@ -202,6 +203,7 @@ function searchWatch() {
             <p><strong>Low-Value Models:</strong> ${brandInfo.lowValueModels.join(", ")}</p>
         `;
     } else {
+        // If no exact match is found, suggest close matches
         const closeMatches = findCloseMatches(brandName);
 
         if (closeMatches.length > 0) {
