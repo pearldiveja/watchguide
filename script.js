@@ -14,7 +14,7 @@ const watchDatabase = {
         "Rolex", "Patek Philippe", "Audemars Piguet", "Cartier", "Omega",
         "Vacheron Constantin", "Jaeger-LeCoultre", "IWC Schaffhausen",
         "Panerai", "Tudor", "Breitling", "Grand Seiko", "TAG Heuer", "A. Lange & Söhne", "Alain Silberstein", "Alpina", "Angelus", "Anonimo", "AnOrdain Watches", "Aristo Vollmer", "Armin Strom", "Arnold & Son", "Ateliers deMonaco", "Audemars Piguet", "Autodromo", "Autran & Viala", "Azimuth", "Backes & Strauss", "Ball Watch Company", "Ballast", "Baltic Watches", "Baume & Mercier", "Bausele", "Bell & Ross", "Berd Vay’e", "Biatec", "Blancpain", "Bovet 1822", "Breguet", "Breitling", "Bremont", "Bruno Söhnle", "Bulgari", "Cabestan", "Caravelle New York", "Carl F. Bucherer", "Cartier", "Casio G-Shock", "Chanel", "Chopard", "Christophe Claret", "Christopher Ward", "Cimier", "Citizen", "Claude Bernard", "Clerc", "Corum", "Cuervo y Sobrinos", "Czapek & Cie", "Dan Henry Watches", "Daniel Roth", "De Bethune", "De Grisogono", "Delma", "Dietrich", "Dior", "Dornblüth & Sohn", "Doxa", "Dubey & Schaldenbrand", "Ebel", "Eberhard & Co.", "Edox", "Elliot Brown", "Enicar", "Epos", "Eterna", "Eterna Matic", "F.P Journe", "Fabergé", "Farer Universal", "Ferdinand Berthoud", "Fiona Krüger", "Formex Watches", "Fortis", "Franck Muller", "Frederique Constant", "Furlan Marri", "Gavox", "Gerald Genta", "Girard-Perregaux", "Glashütte Original", "Glycine", "GoS Watches", "Graff", "Graham Watches", "Grand Seiko", "Greubel Forsey", "Grönefeld", "H. Moser & Cie", "Habring²", "Halios", "Hanhart", "Harry Winston", "Hautlence", "Hermès", "Hublot", "HYT", "Ikepod", "IWC Schaffhausen", "Jacob & Co.", "Jaeger-LeCoultre", "Jager", "Jaquet Droz", "Jean Dunand", "JeanRichard", "Junghans", "Junghans Meister", "Kari Voutilainen", "Kienzle Uhren", "Kobold", "Konstantin Chaykin", "Kudoke", "Kurono Tokyo", "Laco", "Lang & Heyne", "Laurent Ferrier", "Laventure Watches", "Limes Watches", "Linde Werdelin", "Lip Watches", "Locman Italy", "Longines", "Lorier Watches", "Louis Moinet", "Louis Vuitton", "Ludovic Ballouard", "Luminox", "Manufacture Royale", "Marathon Watch Company", "Marloe Watch Company", "Martenero Watches", "Maurice Lacroix", "MB&F", "MCT Watches (Manufacture Contemporaine du Temps)", "Meistersinger", "Mido Watches", "Ming Watches", "Mondaine Helvetica", "Montblanc", "Moritz Grossmann", "Mühle Glashütte", "Nivada Grenchen", "NOMOS Club Campus (specific line)", "Nomos Glashütte", "Norqain", "Oak & Oscar", "Ocean Crawler Watches", "Omega", "Ophion Watches", "Oris", "Panerai", "Parmigiani Fleurier", "Patek Philippe", "Perrelet Watches", "Philippe Dufour", "Piaget", "Porsche Design", "Praesidus Watches", "Rado", "Ralph Lauren Watches", "Rebellion Timepieces", "Reservoir Watches", "Ressence", "RGM Watch Company (USA)", "Richard Mille", "RJ Watches (Romain Jerome)", "Roger Dubuis", "Roland Iten", "Rolex", "Romain Gauthier", "Schaumburg Watch", "Schwarz Etienne", "Seiko Credor", "Serica Watches", "Sinn Flieger Chronographs", "Sinn Spezialuhren", "Speake-Marin", "Stefano Ricci Watches", "Stowa", "Stowa Marine Original", "Studio Underd0g Watches", "TAG Heuer", "Techné Instruments", "Timex", "Tissot", "Traser H3", "Tudor", "Ulysse Nardin", "Unimatic Watches", "Union Glashütte", "Urban Jürgensen", "Urwerk", "Vacheron Constantin", "Vaer Watches", "Van Cleef & Arpels", "Van Der Klaauw", "Vero Watches", "Vianney Halter", "Victorinox Swiss Army", "Vortic Watch Company", "Vostok Europe", "Vulcain", "Weiss Watch Company", "Weiss Watch Company (USA)", "Xeric Watches", "Xetum", "Yema", "Zelos Watches", "Zenith", "Zodiac", "Zodiac Aerospace GMT"
-        "Alpina", "AnOrdain", "Astor+Banks", "Autodromo", "Ball", "Baltany", "Baltic", "Baume & Mercier", "Bell & Ross", "Braun", "Bravur", "Bremont", "Brew", "Bulova", "Burberry", "Carl F. Bucherer", "Casio", "Certina", "Christopher Ward", "Citizen", "COACH", "Dan Henry", "Doxa", "Elliot Brown", "Emporio Armani", "Eterna", "Farer", "Filson", "Formex", "Fossil", "Frederique Constant", "Glycine", "Halios", "Hamilton", "Helm", "Hemel", "Hugo Boss", "Invicta", "Jack Mason", "Junghans", "Kate Spade", "Laco", "Longines", "Lorier", "Luminox", "Marathon", "Maurice Lacroix", "Meistersinger", "Merkur", "Michael Kors", "Mido", "MKII", "Mondaine", "Montblanc", "Movado", "Nodus", "Nomos Glashütte", "NTH", "Oak & Oscar", "Ocean Crawler", "Ollech & Wajs", "Orient", "Oris", "Phoibos", "Rado", "Raven", "Raymond Weil", "San Martin", "Seiko", "Serica", "Shinola", "Sinn Spezialuhren", "Skagen", "Spinnaker", "Squale", "Steinhart", "Stowa", "Studio Underd0g", "Sugess", "TAG Heuer", "Timex", "Tissot", "Tommy Hilfiger", "Tory Burch", "Traska", "Undone", "Unimatic", "Vaer", "Victorinox", "Vostok", "Weiss", "Yema", "Zelos", "Zodiac"
+        "Alpina", "AnOrdain", "Astor+Banks", "Autodromo", "Ball", "Baltany", "Baltic", "Baume & Mercier", "Bell & Ross", "Braun", "Bravur", "Bremont", "Brew", "Bulova", "Burberry", "Carl F. Bucherer", "Casio", "Certina", "Christopher Ward", "Citizen", "COACH", "Dan Henry", "Doxa", "Elliot Brown", "Emporio Armani", "Eterna", "Farer", "Filson", "Formex", "Fossil", "Frederique Constant", "Glycine", "Halios", "Hamilton", "Helm", "Hemel", "Hugo Boss", "Invicta", "Jack Mason", "Junghans", "Kate Spade", "Laco", "Longines", "Lorier", "Luminox", "Marathon", "Maurice Lacroix", "Meistersinger", "Merkur", "Michael Kors", "Mido", "MKII", "Mondaine", "Montblanc", "Movado", "Nodus", "Nomos Glashütte", "NTH", "Oak & Oscar", "Ocean Crawler", "Ollech & Wajs", "Orient", "Oris", "Phoibos", "Rado", "Raven", "Raymond Weil", "San Martin", "Seiko", "Serica", "Shinola", "Sinn Spezialuhren", "Skagen", "Spinnaker", "Squale", "Steinhart", "Stowa", "Studio Underd0g", "Sugess", "TAG Heuer", "Timex", "Tissot", "Tommy Hilfiger", "Tory Burch", "Traska", "Undone", "Unimatic", "Vaer", "Victorinox", "Vostok", "Weiss", "Yema", "Zelos", "Zodiac,"
 
         // Add more high-value brands here...
     ],
@@ -71,6 +71,45 @@ const watchDatabase = {
         }
     }
 };
+// Add this right after mixedValue
+bundleSuggestions: {
+    byBrand: {
+        threshold: 10,
+        description: "Group identical brands together"
+    },
+    byStyle: {
+        categories: {
+            "Sports": ["Dive", "Chronograph", "Racing"],
+            "Dress": ["Minimalist", "Roman Numerals", "Leather Strap"],
+            "Fashion": ["Oversized", "Patterned Dial", "Mixed Materials"]
+        },
+        threshold: 20,
+        description: "Group by visual style characteristics"
+    }
+},
+function generateBundleSuggestions(brand) {
+    const styleMap = {
+        "Fossil": "Fashion",
+        "Casio": "Sports",
+        "Timex": "Vintage",
+        "Michael Kors": "Fashion",
+        "Daniel Wellington": "Dress"
+    };
+    
+    return `
+        <div class="bundle-tip">
+            <strong>Bundle Recommendation:</strong>
+            <ul>
+                <li>Combine ${watchDatabase.bundleSuggestions.byBrand.threshold}+ ${brand} watches</li>
+                <li>Create ${watchDatabase.bundleSuggestions.byStyle.threshold}+ 
+                    ${styleMap[brand] || "similar style"} watches lot</li>
+                <li>Mix with other same-material watches</li>
+            </ul>
+            <em>Target bundle value: $100+</em>
+        </div>
+    `;
+}
+
 
 // Function to normalize input (handles typos and partial matches)
 function normalizeInput(input) {
@@ -94,6 +133,7 @@ function findCloseMatches(input) {
         if (brand.toLowerCase().includes(normalizedInput)) {
             matches.push(brand);
         }
+        
     });
 
     // Check mixedValue brands
@@ -134,7 +174,10 @@ function searchWatch() {
     } 
     // Finally, check if the brand is in lowValue
     else if (watchDatabase.lowValue.includes(brandName)) {
-        message = `<p><strong>${brandName}</strong> is a low-value brand and may not be worth setting aside.</p>`;
+    message = `<p class="low-value"><strong>${brandName}</strong> ➤ Bundle Candidate</p>`;
+    message += generateBundleSuggestions(brandName);
+}
+
     } 
     // If no match is found, suggest close matches
     else {
