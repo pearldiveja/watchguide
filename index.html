@@ -17,35 +17,123 @@
 
     <!-- Watch Tutorial Section -->
     <div id="watch-tutorial" class="step hidden">
-        <h2>How to Identify Valuable Watches</h2>
-        <p>Look for these key indicators of valuable watches:</p>
+         <h2>How to Identify High-Value Watches</h2>
+    
+    <div class="guide-section">
+        <h3>Step 1: Use the Search Tool</h3>
+        <p>Enter the brand name of the watch into the search box to check if it is categorized as a <strong>high-value</strong>, <strong>low-value</strong>, or <strong>mixed-value</strong> brand. The search tool will provide specific recommendations for sorting.</p>
         <ul>
-            <li><strong>Brand:</strong> Luxury brands like Rolex, Patek Philippe, Audemars Piguet retain high value.</li>
-            <li><strong>Condition:</strong> Watches in excellent physical and functional condition are worth more.</li>
-            <li><strong>Rarity:</strong> Limited edition or discontinued models tend to have higher values.</li>
-            <li><strong>Original Packaging:</strong> Presence of original box and paperwork increases value.</li>
-            <li><strong>Market Trends:</strong> Check current demand for specific models.</li>
+            <li><strong>High-Value:</strong> Set these watches aside for individual listing or further research.</li>
+            <li><strong>Low-Value:</strong> Bundle these into lots based on brand, style, or material (see Step 2).</li>
+            <li><strong>Mixed-Value:</strong> Use the tool's output to identify specific high-value models within mixed brands.</li>
         </ul>
-        <button class="back-button" onclick="showStep('main-menu')">Back to Main Menu</button>
+        <button onclick="showStep('search-step')">Go to Search Tool</button>
     </div>
 
-    <!-- Watch Search Section -->
-    <div id="watch-search" class="step hidden">
-        <h2>Search Watch Value</h2>
-        <p>Enter watch details to determine if it should be set aside or not:</p>
+    <div class="guide-section">
+        <h3>Step 2: Value Indicators</h3>
+        <p>After using the search tool, visually inspect watches for additional high-value indicators:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>High-Value Signs</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Brand Markings</strong></td>
+                    <td>Luxury brands (e.g., Rolex, Omega) or "Swiss Made" markings.</td>
+                </tr>
+                <tr>
+                    <td><strong>Material Markings</strong></td>
+                    <td>18k/750 (gold), 925 (silver), PT950 (platinum).</td>
+                </tr>
+                <tr>
+                    <td><strong>Movement Type</strong></td>
+                    <td>Automatic movements (sweeping second hand), chronograph complications.</td>
+                </tr>
+                <tr>
+                    <td><strong>Condition</strong></td>
+                    <td>No visible damage, intact crystal, functional crown and pushers.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-        <div class="search-form">
-            <label for="brand-name">Brand Name:</label>
-            <input type="text" id="brand-name" placeholder="e.g., Rolex">
+    <div class="guide-section">
+        <h3>Step 3: Sorting and Bundling</h3>
 
-            <button class="search-button" onclick="searchWatch()">Search Watch</button>
+        <!-- High-Value Watches -->
+        <div class="sorting-group">
+            <h4>High-Value Watches</h4>
+            <p>Set aside high-value watches identified by the search tool or value indicators. These should be individually researched and listed for maximum resale value.</p>
         </div>
 
-        <!-- Results displayed here -->
-        <div id="search-results" class="search-results hidden"></div>
+        <!-- Low-Value Watches -->
+        <div class="sorting-group">
+            <h4>Low-Value Watches</h4>
+            <p>Create bundles from low-value watches using these strategies:</p>
 
-        <button class="back-button" onclick="showStep('main-menu')">Back to Main Menu</button>
+            <!-- Table for Bundle Suggestions -->
+            <table class="bundle-table">
+                <thead>
+                    <tr>
+                        <th>Bundle Type</th>
+                        <th>Description</th>
+                        <th>Example Lot Size</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Brand-Specific Lots</strong></td>
+                        <td>Create lots of 10+ watches from the same brand.</td>
+                        <td>E.g., 10 Michael Kors watches.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Style-Based Lots</strong></td>
+                        <td>Create lots of 20+ watches grouped by style.</td>
+                        <td>E.g., 20 sports watches or dress watches.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Mystery Boxes</strong></td>
+                        <td>Add damaged or very low-value watches into mystery boxes with mixed brands and styles.</td>
+                        <td>E.g., 15 mixed-condition watches in a box.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Example Button -->
+            <button onclick="document.getElementById('brand-name').value = 'Fossil'; searchWatch()">Example: Search "Fossil"</button>
+
+        </div>
+
+        <!-- Mystery Box Preparation -->
+        <div class="sorting-group">
+            <h4>Mystery Box Preparation</h4>
+            <p>Add broken, damaged, or salvage-quality watches to mystery boxes after verifying they are not high-value using the search tool. Mystery boxes should contain a mix of brands and styles to appeal to buyers looking for repair projects or surprises.</p>
+
+            <!-- Example Mystery Box -->
+            Example Composition:
+            <ul style="margin-left: 20px;">
+                <li><em>(5)</em> Low-condition fashion watches (e.g., Fossil, Michael Kors).</li>
+                <li><em>(3)</em> Sports-style quartz watches (e.g., Casio).</li>
+                <li><em>(2)</em> Vintage-style damaged automatics (e.g., Timex).</li>
+            </ul>
+
+        </div>
+
     </div>
+
+    <!-- Final Notes -->
+    <div class="guide-section">
+        <h3>Final Notes:</h3>
+        - Always verify unknown brands with the search tool.<br />
+        - Use your precious metal analyzer to confirm gold/silver content.<br />
+        - Keep high-value pieces separate from bulk lots.
+    </div>
+
+</div>
 
     <!-- Scripts -->
     <script src="script.js"></script>
