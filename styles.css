@@ -95,4 +95,46 @@ ul, ol {
     padding: 15px;
     margin: 10px 0;
 }
+<style type="text/css">
+#identification-guide {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.guide-section {
+    margin-bottom: 25px;
+}
+
+.guide-section h3 {
+    color: #333;
+}
+
+.bundle-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.bundle-table th,
+.bundle-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.bundle-table th {
+    background-color: #f4f4f4;
+}
+
+.sorting-group {
+    margin-top: 15px;
+}
+
+.sorting-group h4 {
+    color: #555;
+}
+</style>
+
+// JavaScript remains unchanged; this is just an enhancement to guide integration.
 
