@@ -80,3 +80,19 @@ ul, ol {
     background-color: #f8f9fa;
     padding: 20px;
 }
+/* Add these new styles */
+.low-value { color: #d4af37; }
+.bundle-tip {
+    background: #fffbe6;
+    border-left: 3px solid #ffd700;
+    padding: 15px;
+    margin: 10px 0;
+}
+.bundle-tip strong { color: #2c3e50; }
+.mixed-value {
+    background: #f8f9fa;
+    border-left: 3px solid #3498db;
+    padding: 15px;
+    margin: 10px 0;
+}
+
